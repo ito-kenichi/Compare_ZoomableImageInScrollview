@@ -48,6 +48,24 @@
 * React Native：-
 * Xamarin.Forms：-
 
+## ライブラリ化とライブラリの読み込み
+### url
+* Flutter：-
+* React Native：-
+* Xamarin.Forms：-
+
+## iOSとAndroidで処理を分ける
+### url
+* Flutter：-
+* React Native：-
+* Xamarin.Forms：-
+
+## アプリアイコン、アプリ名の変更
+### url
+* Flutter：-
+* React Native：-
+* Xamarin.Forms：-
+
 ## ScrollView
 ### url
 * Flutter：-

@@ -84,6 +84,12 @@
 * React Native：-
 * Xamarin.Forms：-
 
+## ピンチイン・ピンチアウト
+### url
+* Flutter：-
+* React Native：-
+* Xamarin.Forms：-
+
 ## Sqlite
 ### url
 * Flutter：-

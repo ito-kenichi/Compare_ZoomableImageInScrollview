@@ -1,14 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import DisplayImage from "./DisplayImage"
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+export default class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <DisplayImage
+        // DisplayImageファイル側で指定したimagePathという引数に画像のURLを設定する
+          imagePath={'https://picsum.photos/250?image=9'}
+        />
+      </View>
+    );
+    }
 }
 
 const styles = StyleSheet.create({

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace xamarin.forms_project
 {
@@ -13,6 +7,8 @@ namespace xamarin.forms_project
         public MainPage()
         {
             InitializeComponent();
+            var image = new DisplayImage("https://picsum.photos/250?image=9");
+            layout.Children.Add(image);
         }
     }
 }

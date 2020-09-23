@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'ImageWidget.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,7 +37,25 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: ContentsImage(imagePath:'https://picsum.photos/250?image=9'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            SingleChildScrollView(
+              child: Center(
+                child: InteractiveViewer(
+                  boundaryMargin: EdgeInsets.all(20.0),
+                  minScale: 0.1,
+                  maxScale: 3.0,
+                  child: Image.network(
+                    'https://picsum.photos/250?image=9',
+                    width: 500,
+                    height: 500,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

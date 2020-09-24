@@ -1,5 +1,13 @@
 # Flutter, React Native, Xamarin.Formsの比較
 
+- iOS Simulatirのズーム
+	- Option＋Shift+タッチパッド移動：カーソル移動
+	- Option+タッチパッド移動：ピンチイン/アウト
+- Android Emulatirのズーム
+	- Command＋Shift+タッチパッド移動：カーソル移動
+	- Command+タッチパッド移動：ピンチイン/アウト
+
+
 ## ローカル画像を３枚表示する
 ### https://github.com/ito-kenichi/Compare_VirewImage
 * Flutter：済
